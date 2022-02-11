@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 function Card(props) {
 
   return (
-    <div className='card col-4 nice-card'>
+    <div className='card col-lg-4 col-md-6 col-sm-6 nice-card'>
       <img className="w-25 h-25 rounded d-inline-block" src={props.src}></img>
       <p className="text-white">{props.name}</p>
       <p className="text-white">$ {props.price}</p>
